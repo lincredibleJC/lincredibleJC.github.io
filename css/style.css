@@ -413,7 +413,7 @@ SOCIAL ICON
 
 /* === NAVIGATION === */
 .header {
-    border-bottom: 1px solid #eee;
+    /*border-bottom: 1px solid #eee;*/
     position: relative;
     width: 100%;
     z-index: 998;
@@ -422,7 +422,7 @@ SOCIAL ICON
 }
 
 .header::after {
-    border-bottom:1px solid #eee;
+    /*border-bottom:1px solid #eee;*/
     width: 100%;
     position: absolute;
     content: "";
