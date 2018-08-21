@@ -828,6 +828,7 @@ Resume Timeline
 }
 
 .timeline>li .timeline-panel {
+    border-radius: 25px;
     float: left;
     width: 43%;
     text-align: right;
@@ -836,6 +837,7 @@ Resume Timeline
 }
 
 .timeline-content{
+    border-radius: 25px;
     position: relative;
     padding: 24px;
     background-color: #fff;
