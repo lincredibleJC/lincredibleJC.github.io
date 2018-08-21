@@ -744,6 +744,10 @@ Resume Timeline
     padding:5px 20px 0 20px;
 }
 
+.timeline-content p {
+    text-align: justify;
+}
+
 .timeline>li .timeline-panel:before {
     right: auto;
     left: -15px;
