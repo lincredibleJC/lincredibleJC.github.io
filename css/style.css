@@ -339,7 +339,7 @@ ul.list-check li::before {
 }
 
 .intro h1{
-	font-size: 60px;
+	font-size: 120px;
 	line-height: 80px;
 	margin-bottom: 16px;
 	color: #52b3d9;
@@ -349,12 +349,13 @@ ul.list-check li::before {
 }
 .intro p{
 	color: #f7f7f7;
+    font-size: 30px;
 	margin-bottom: 40px;
 }
 
 .intro-sub {
 	color: #fff;
-	font-size: 24px;
+	font-size: 50px;
 	line-height: 32px;
 	font-weight: 700;
 	text-transform: uppercase;
