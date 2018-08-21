@@ -846,7 +846,7 @@ Resume Timeline
 }
 
 .timeline-content::after{
-    border: 1px solid #eee;
+    /*border: 1px solid #eee;*/
     width: 100%;
     position: absolute;
     content: "";
