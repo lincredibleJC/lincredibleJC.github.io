@@ -29,8 +29,17 @@
 */
 
 :root {
-    /*TO change the more skills section, go to scripts.js line 144 to change the color*/
     --main-theme-color: #68c3a3;
+    --secondary-theme-color: #52b3d9;
+/*
+    TO change the more skills section, go to scripts.js line 144 to change the color:
+    Original green     #68c3a3
+    Original intro blue#2ea9f6
+    React blue         #05a5d1
+    WIX blue           #2ea9f6
+    NUS Orange         #ec7c22
+    NUS Blue           #014282
+*/
 }
 
 body{
@@ -347,7 +356,7 @@ ul.list-check li::before {
 	font-size: 120px;
 	line-height: 80px;
 	margin-bottom: 16px;
-	color: #52b3d9;
+	color: var(--secondary-theme-color);
 }
 .intro h1 span{
 	color: var(--main-theme-color);
