@@ -28,6 +28,9 @@
 =====================================
 */
 
+:root {
+    --main-theme-color: #68c3a3;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -49,7 +52,7 @@ body, html{
 /* Link style
 ---------------------------------------------------------*/
 a {
-    color: #68c3a3;
+    color: var(--main-theme-color);
 }
 a,
 a > * {
@@ -147,7 +150,7 @@ h6 {
 }
 
 .form-control:focus {
-    border-color: #68c3a3;
+    border-color: var(--main-theme-color);
     box-shadow: none;
 }
 
@@ -173,7 +176,7 @@ h6 {
 
 /*btn-primary*/
 .btn-primary{
-    background-color:#68c3a3;
+    background-color:var(--main-theme-color);
     border-color: rgba(51, 51, 51, 0.15);
 }
 
@@ -216,7 +219,7 @@ h6 {
 .btn-default.focus, 
 .btn-default:active, 
 .btn-default.active{
-    color: #68c3a3;
+    color: var(--main-theme-color);
     background-color: #fff;
     border-color: #fff;
 }
@@ -262,7 +265,7 @@ ul.list-check li{
 ul.list-check li::before {
     content: "\f00c";
     font-family: fontawesome;
-    color: #68c3a3;
+    color: var(--main-theme-color);
     margin-right: 10px;
 }
 
@@ -346,7 +349,7 @@ ul.list-check li::before {
 	color: #52b3d9;
 }
 .intro h1 span{
-	color: #68c3a3;
+	color: var(--main-theme-color);
 }
 .intro p{
 	color: #f7f7f7;
@@ -407,7 +410,7 @@ SOCIAL ICON
 }
 
 .social-icons a i:hover::after{
-    background: #68c3a3;
+    background: var(--main-theme-color);
     border: 1px solid transparent;
     z-index: 0;
 }
@@ -458,7 +461,7 @@ SOCIAL ICON
     visibility: hidden;
     opacity:0;
     border: 1px solid #ddd;
-    border-top: 2px solid #68c3a3;
+    border-top: 2px solid var(--main-theme-color);
     border-radius: 0;
     border-bottom: 3px double #ddd;
     background-color: #FFFFFF;
@@ -509,7 +512,7 @@ SOCIAL ICON
 .navbar-custom .navbar-nav > li.active > a {
     background: none;
     outline: 0;
-    color: #68c3a3;
+    color: var(--main-theme-color);
 }
 
 .navbar-custom .navbar-brand {
@@ -865,7 +868,7 @@ Resume Timeline
 }
 
 .timeline>li .timeline-content:hover {
-    background: #68c3a3;
+    background: var(--main-theme-color);
     color: #fff;
 }
 
@@ -886,7 +889,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::before {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid var(--main-theme-color);
 }
 
 .timeline>li.timeline-inverted .timeline-panel::before {
@@ -898,7 +901,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::before {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid var(--main-theme-color);
     border-left: 0;
 }
 
@@ -920,7 +923,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::after {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid var(--main-theme-color);
 }
 
 .timeline>li.timeline-inverted .timeline-panel::after {
@@ -933,7 +936,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::after {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid var(--main-theme-color);
     border-left: 0;
 }
 
@@ -992,7 +995,7 @@ Resume Timeline
 }
 
 .progress-bar {
-    background-color: #68c3a3;
+    background-color: var(--main-theme-color);
 }
 .progress-bar span{
     position: absolute;
@@ -1036,6 +1039,7 @@ Resume Timeline
     height: 140px;
     margin: 40px auto;
     text-align: center;
+    color: #fff;
 }
 .chart canvas {
     position:absolute; 
@@ -1103,7 +1107,7 @@ Resume Timeline
 
 
 #filter li a {
-    color: #68c3a3;
+    color: var(--main-theme-color);
     display: block;
     text-transform: uppercase;
     padding: 0 15px;
@@ -1113,7 +1117,7 @@ Resume Timeline
 #filter li a.active,
 #filter li a:hover {
     position: relative;
-    background: #68c3a3;
+    background: var(--main-theme-color);
     color: #fff;
     border-bottom: 3px solid rgba(0, 0, 0, 0.15);
 }
@@ -1170,7 +1174,7 @@ Resume Timeline
 
 .links a i{
     position: relative;
-    color: #68c3a3;
+    color: var(--main-theme-color);
     font-size: 16px;
     margin: 0 13px;
     z-index: 100;
@@ -1185,7 +1189,7 @@ Resume Timeline
     top: -7px;
     width: 30px;
     height: 30px;
-    border: 1px solid #68c3a3;
+    border: 1px solid var(--main-theme-color);
     z-index: -1;
     border-radius: 3px;
     -webkit-transform: rotate(45deg);
@@ -1195,14 +1199,14 @@ Resume Timeline
             transform: rotate(45deg);
 }
 .links a:hover i::after {
-    background-color: #68c3a3;
+    background-color: var(--main-theme-color);
 }
 
 .portfolio-info {
     position: absolute;
     bottom: -100%;
     left: 0;
-    background-color: #68c3a3;
+    background-color: var(--main-theme-color);
     color: #fff;
     height: 45px;
     width: 100%;
@@ -1312,7 +1316,7 @@ Resume Timeline
     top: -10px;
     width: 40px;
     height: 40px;
-    background-color: #68c3a3;
+    background-color: var(--main-theme-color);
     z-index: -1;
     border-radius: 3px;
     -webkit-transform: rotate(45deg);
@@ -1364,7 +1368,7 @@ Resume Timeline
     color: #282828;
 }
 .entry-title a:hover{
-    color: #68c3a3;
+    color: var(--main-theme-color);
 }
 .entry-meta {
     color: #afafaf;
@@ -1381,7 +1385,7 @@ Resume Timeline
     font-weight: 400;
 }
 .entry-meta ul li a:hover{
-    color: #68c3a3;
+    color: var(--main-theme-color);
 }
 
 .blog-more {
@@ -1423,17 +1427,17 @@ Icon for all respective meta
 
 /* === Hire Section === */
 .hire-section {
-    background: url(../images/hire-bg.jpg) no-repeat top center #68C3A3;
+    background: url(../images/hire-bg.jpg) no-repeat top center var(--main-theme-color);
     background-attachment: fixed;
     background-size: cover;
     color: #fff;  
 }
 .hire-section-bg {
     padding: 110px 0;
-    background: -webkit-linear-gradient(bottom, #68C3A3, rgba(104, 195, 163, 0.7)); /*Safari 5.1-6*/
-    background: -o-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Fx 3.6-15*/
-    background: linear-gradient(to top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Standard*/
+    background: -webkit-linear-gradient(bottom, var(--main-theme-color), rgba(104, 195, 163, 0.7)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top, var(--main-theme-color), rgba(104, 195, 163, 0.7)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top, var(--main-theme-color), rgba(104, 195, 163, 0.7)); /*Fx 3.6-15*/
+    background: linear-gradient(to top, var(--main-theme-color), rgba(104, 195, 163, 0.7)); /*Standard*/
 }
 
 .hire-section h2 {
@@ -1523,7 +1527,7 @@ Icon for all respective meta
 }
 
 .scroll-up a {
-	background-color: #68c3a3;
+	background-color: var(--main-theme-color);
 	display: block;
 	width: 28px;
 	height: 28px;
@@ -1783,7 +1787,7 @@ Icon for all respective meta
 }
 
 .personal-info h1 span{
-    color:#68c3a3;
+    color:var(--main-theme-color);
 }
 .personal-info p {
     margin-bottom: 40px;
